@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stoplight Hardware Project</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Stoplight Hardware Project
+                    <small>My first attempt at Verilog programming.</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="javascript:history.back()">Back</a>
+                    </li>
+                    <li class="active">Stoplight Hardware Project</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <video width="100%" height="100%" controls>
+					<source src="stoplight.mp4" type="video/mp4">
+				</video> 
+            </div>
+
+            <div class="col-md-4">
+                <h3>Project Description</h3>
+                <p> A 4 way stoplight with turn signals, pedestrian input and police control. </p>
+				<br>
+				<a href="https://www.dropbox.com/s/r0k2hobhp8uxv9p/StopLight.zip?dl=0">Project Files on Dropbox</a>
+				<h3>Project Features</h3>
+                <ul>
+                    <li>Automatic mode shuffles through 4 60 second preset light configurations when no input is being recieved.</li>
+					<li>Input mode takes in weight input from cars and button input from pedestrians.</li>
+					<ul>
+						<li>Allows the controller to determine the optimal way to allow all cars / pedestrians to cross.</li>
+						<li>Once everyone has been given an opportunity to cross, the input mode takes in new sensor input and repeats the process. </li>
+					</ul>
+                    <li>Police mode will automatically shut down all lights in 5 seconds and turn the lights green in the approaching police cars direction.</li>
+					<li>Timer counts down the time left in the cycle. Displayed in the upper right of the FPGA board. A 'P' is displayed when the cycle is in Police Mode.</li>
+                </ul>
+                <h3>Languages and Frameworks Used</h3>
+                <ul>
+                    <li>Verilog</li>
+					<li>Arduino FPGA Board</li>
+					<li>Altera Quartus II</li>
+					<li>Hades</li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Blake Skaja </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
