@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #0409bc;
 }
 
 h1,
@@ -62,8 +62,8 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #0409bc;
 }
 
 header .container {
@@ -403,7 +403,7 @@ section.danger a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #0409bc;
     background: #fff;
 }
 
@@ -456,7 +456,7 @@ section.danger a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #0409bc;
 }
 
 form .row:first-child .floating-label-form-group {
